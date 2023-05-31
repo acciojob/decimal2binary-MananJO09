@@ -1,7 +1,8 @@
 function decimalToBinary(num) {
 // write your code here
+	let  res=[];
 	while(num>0){
-		let  res=[];
+		
 	  res= num%2;
 	num=num/2;
 	}
