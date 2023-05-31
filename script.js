@@ -1,12 +1,14 @@
 function decimalToBinary(num) {
 // write your code here
-	let  res=[];
-	while(num>0){
-	  res= num%2;
-	num=num/2;
-	}
-	Array.prototype.reverse(res);
-	Array.prototype.join(res);
+function decimalToBinary(num) {
+    let res = [];
+    while (num > 0) {
+        res.push(num % 2);
+        num = Math.floor(num / 2);
+    }
+    return res.reverse().join('');
 }
+
+module.exports = decimalToBinary;
 
 module.exports = decimalToBinary;
