@@ -1,4 +1,3 @@
-function decimalToBinary(num) {
 // write your code here
 function decimalToBinary(num) {
     let res = [];
@@ -8,7 +7,5 @@ function decimalToBinary(num) {
     }
     return res.reverse().join('');
 }
-
-module.exports = decimalToBinary;
 
 module.exports = decimalToBinary;
