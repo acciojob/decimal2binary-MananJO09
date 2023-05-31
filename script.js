@@ -6,6 +6,7 @@ function decimalToBinary(num) {
 	num=num/2;
 	}
 	Array.prototype.reverse(res);
+	Array.prototype.join(res);
 }
 
 module.exports = decimalToBinary;
